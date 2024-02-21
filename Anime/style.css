@@ -1,0 +1,110 @@
+body{
+    margin:auto;
+    padding:0;
+    width:50%;
+    min-height:20cm;
+    background: url(Image/comet.jg.jpg);
+    background-size:cover;
+    background-position: center;
+    font-family:sans-serif;
+    background-repeat: no-repeat;
+}
+
+.inbox{
+width: 350px;
+height: 300px;
+min-height: 10cm;
+background: wheat;
+color:blue;
+top: 50%;
+left: 50%;
+background: url(Image/gojou.png);
+background-repeat:round;
+position:absolute;
+transform: translate(-50%,-35%);
+box-sizing: border-box;
+padding: 70px 30px;
+}
+
+.person{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position:absolute;
+    top:-50px;
+    left:calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align:center;
+    font-size: 22px;
+}
+
+.inbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.inbox input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.inbox input[type="text"]{
+    border:none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#000000;
+    font-size: 16px;
+}
+
+.inbox input[type="password"]{
+    border:none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#000000;
+    font-size: 16px;
+}
+
+.inbox inut[type="submit"]{
+    border: none;
+    outline:none;
+    height: 40px;
+    background: orangered;
+    color: rgb(0, 119, 128);
+    font-size:20px;
+    border-radius: 40px;
+}
+
+.inbox input[type="submit"]:hover
+{
+    cursor:pointer;
+    background: purple;
+    color:#000;
+}
+
+.inbox a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    color:deepskyblue;
+}
+
+.inbox a:hover
+{
+    color: yellow;
+}
+
+.menu{
+    top: 0px;
+    left: 50px;
+    transform: translate(-50%,-5%);
+
+}

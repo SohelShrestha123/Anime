@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    margin:auto;
+    padding:0;
+    width:50%;
+    min-height:22cm;
+    background: url(Image/waifu.png);
+    background-size:cover;
+    background-position: center;
+    font-family:sans-serif;
+    background-repeat: no-repeat;
+}
+
+.copy{
+width: 360px;
+height: 736px;
+background: pink;
+color:black;
+top: 60%;
+left: 50%;
+opacity: 0.3;
+position:absolute;
+transform: translate(-50%,-45%);
+box-sizing: border-box;
+padding: 20px 20px;
+}
+
+.copy h1{
+    font-size:30px;
+    text-align:center;
+    text-transform:uppercase;
+    margin: 40px 0;
+}
+
+.copy label{
+  font-size:18px;
+  margin:10px;
+}
+
+.copy input{
+font-size: 16px;
+padding: 8px;
+margin: 5px;
+width:10;
+border:0;
+border-radius: 5px;
+outline: none;
+}
+
+.copy button{
+    font-size: 18px;
+    font-weight:bold;
+    margin: 5px;
+    padding:5px;
+    width: 30%;
+    border: 0;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+.copy button:hover{
+    color:aquamarine;
+}
+
+.menu{
+    top: 0px;
+    left: 50px;
+    transform: translate(-50%,-5%);
+
+}

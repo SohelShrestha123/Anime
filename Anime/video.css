@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #08090b;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.laptop{
+    width:100%;
+    max-width: 1200px;
+    position: relative;
+}
+
+.laptop img{
+    width: 100%;
+}
+
+.laptop video{
+    position: absolute;
+    width: 76%;
+    height: 81.3%;
+    background: #000;
+    top:6.4%;
+    left:12%;
+}

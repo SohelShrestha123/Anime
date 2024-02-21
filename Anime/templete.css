@@ -1,0 +1,33 @@
+body{
+    margin:auto;
+    padding:0;
+    width:50%;
+    min-height:20cm;
+    background: url(picture/Sky.jpg);
+    background-size:cover;
+    background-position: center;
+    font-family:sans-serif;
+    background-repeat: no-repeat;
+}
+
+.box{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    gap: 5px;
+    transform: translate(50%,100%);
+}
+
+.box img{
+    width:10%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-out 0.5s;
+    cursor: pointer;
+}
+
+.box img:hover{
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+body{
+    margin:auto;
+    padding:0;
+    width:50%;
+    min-height:20cm;
+    background: url(Image/akatsuki.png);
+    background-size:cover;
+    background-position: center;
+    font-family:sans-serif;
+    background-repeat: no-repeat;
+    cursor: url("File/kunai.png"),auto;
+}
+
+.main{
+    width: 350px;
+    height: 90px;
+    text-align: center;
+    background: rgb(0, 225, 255);
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-80%);
+    box-sizing: border-box;
+    padding: 0px 0px;
+}
+.banner{
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    top: 57%;
+    left: 50%;
+    background: url(Image/bounty.png);
+    background-repeat:round;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position:absolute;
+    transform: translate(-50%,-30%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+
+.menu{
+    top: 0px;
+    left: 50px;
+    transform: translate(-50%,-5%);
+
+}
+
+.switch{
+    transform: translate(-50%,70%);
+    top: 100px;
+}
